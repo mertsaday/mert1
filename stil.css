@@ -1,0 +1,169 @@
+header {
+    z-index: 10;
+    position: fixed;
+    background: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+ }
+
+ header .logo {
+     height: 40px;
+     padding-top: 7px;
+     padding-left: 3px;
+     float: left;
+     font-size: 25px;
+     font-weight: bold;
+     color: green;
+ }
+ header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 5px;
+ }
+ header nav ul li{
+     list-style: none;
+     text-decoration: none;
+
+ }
+ header nav ul li a {
+     margin: 0 20px;
+     height: 40px;
+     line-height: 40px;
+     font-weight: 400;
+     font-size: 16px;
+     text-decoration: none;
+     color: black;
+ }
+ header nav ul li a:hover {
+    color: green;
+    font-weight: bold;
+    transition: 0,3s;
+ }
+ .button {
+   float: right;
+   margin-left: 55%;
+   margin-right: auto;
+   padding-top: 0;
+   max-height: 35px;
+   padding-left: 3px;
+   padding-right: 3px;
+   border:2px solid green;
+   color: green;
+   outline: 0;
+   display: flex;
+   position: absolute;
+   background: none;
+   border-radius: 8px;
+   text-align: center;
+   cursor: pointer;
+   font-size: 16px;
+   text-decoration: none
+ }
+ .button:hover {
+   background: green;
+   border:2px solid green;
+   color: white;
+ }
+body, html {
+     height: 100%;
+     padding: 0;
+     font-family: 'Montserrat', sans-serif;
+     background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url("img/ormanyangin.jpeg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;*/
+}
+
+.bigyazi {
+  font-size: 5.9vw;
+  color: white;
+  text-align: center;
+  margin-top:5px;
+  text-decoration: none;
+
+}
+.bigaciklama {
+  font-size: 1,9vw;
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+}
+.kaydetbtn{
+    margin-top: 10px
+}
+
+.ortalabtn{
+    margin-top: 22.5%
+}
+
+.abcbtn{
+    margin-top: 7px
+}
+
+.besbtn{
+    margin-top: 5px
+}
+
+.birbtn{
+    margin-top: 1px
+}
+
+.asagi{
+    margin-top: 20%
+}
+
+.butonarasi{
+    margin-top: 5px
+}
+
+.mainsitespacebtn{
+    margin-top: 20px
+}
+
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .map-container-4{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+        .map-container-4 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
+
+
+          .bg {
+            /* The image used */
+            background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+
+            /* Half height */
+            height: 50%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
